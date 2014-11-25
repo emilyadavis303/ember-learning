@@ -7,7 +7,8 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.resource('notes', { path: '/' }, function () {
-    this.resource('note', { path: ':note_id' })
+    this.resource('note', { path: ':note_id' });
+    this.route('new');
   });
 });
 

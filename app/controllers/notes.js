@@ -1,11 +1,13 @@
 import Ember from 'ember';
 
 export default Ember.ArrayController.extend({
+
   numberOfNotes: function () {
     return this.get('content').length;
   }.property('content.[]'),
 
   actions: {
+
     addNote: function () {
       var note = { title: 'New Note', body: 'Lorem ipsum . . .' };
 
@@ -16,5 +18,7 @@ export default Ember.ArrayController.extend({
         console.log('POST request failed!', data);
       });
     }
+
   }
+  
 });

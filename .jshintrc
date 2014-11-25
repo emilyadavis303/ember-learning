@@ -3,6 +3,9 @@
     "document",
     "window",
     "-Promise"
+    "moment",
+    "markdown",
+    "jQuery"
   ],
   "browser" : true,
   "boss" : true,
