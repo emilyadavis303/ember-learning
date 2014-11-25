@@ -2,10 +2,8 @@
   "predef": [
     "document",
     "window",
-    "-Promise"
-    "moment",
-    "markdown",
-    "jQuery"
+    "-Promise",
+    "$"
   ],
   "browser" : true,
   "boss" : true,
